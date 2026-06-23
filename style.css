@@ -12,7 +12,6 @@ body {
     line-height: 1.6;
 }
 
-/* ================= NAVBAR ================= */
 .navbar {
     position: fixed;
     top: 0;
@@ -27,8 +26,8 @@ body {
 }
 
 .nav-logo {
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 22px;
+    font-weight: 700;
     color: #38bdf8;
 }
 
@@ -41,21 +40,19 @@ body {
 .nav-links a {
     text-decoration: none;
     color: #cbd5e1;
-    font-weight: 500;
-    transition: 0.3s;
 }
 
 .nav-links a:hover {
     color: #38bdf8;
 }
 
-/* ================= HERO UPDATE ================= */
+/* ================= HERO SECTION ================= */
 .hero {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 100px 40px 40px; /* important for navbar */
+    padding: 120px 40px 40px;
 }
 
 .hero-container {
@@ -67,62 +64,39 @@ body {
     gap: 60px;
 }
 
-/* RESPONSIVE NAVBAR */
-@media (max-width: 768px) {
-    .navbar {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .nav-links {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .hero-container {
-        flex-direction: column;
-        text-align: center;
-    }
-}
-
-/* ================= HERO SECTION ================= */
-.hero {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 40px;
-}
-
-.hero-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 1100px;
-    width: 100%;
-    gap: 40px;
+.hero-text {
+    flex: 1;
 }
 
 .hero-text h1 {
-    font-size: 42px;
-    color: #38bdf8;
+    font-size: 3rem;
+    line-height: 1.4;
+    margin-bottom: 15px;
 }
 
 .hero-text h2 {
-    font-size: 20px;
-    margin-top: 10px;
+    font-size: 1.3rem;
     color: #cbd5e1;
+    margin-bottom: 15px;
 }
 
 #typing-text {
-    margin-top: 15px;
     color: #94a3b8;
-    font-size: 16px;
+    margin-bottom: 25px;
 }
-.hero-text h1 {
-    font-size: 42px;
-    line-height: 1.4;
-    letter-spacing: 1px;
+
+.highlight {
+    color: #38bdf8;
+    text-shadow: 0 0 10px rgba(56, 189, 248, 0.6);
+}
+
+.hero-image img {
+    width: 320px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #38bdf8;
+    box-shadow: 0 0 25px rgba(56, 189, 248, 0.4);
 }
 
 /* ================= BUTTONS ================= */
