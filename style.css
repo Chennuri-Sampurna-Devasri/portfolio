@@ -7,9 +7,82 @@
 }
 
 body {
-    background: linear-gradient(135deg, #0f172a, #1e293b);
-    color: #ffffff;
+    background: radial-gradient(circle at top, #0a0f1c, #05070d);
+    color: #e2e8f0;
     line-height: 1.6;
+}
+
+/* ================= NAVBAR ================= */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(15, 23, 42, 0.9);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    z-index: 1000;
+}
+
+.nav-logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: #38bdf8;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #cbd5e1;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #38bdf8;
+}
+
+/* ================= HERO UPDATE ================= */
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 40px 40px; /* important for navbar */
+}
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1100px;
+    width: 100%;
+    gap: 60px;
+}
+
+/* RESPONSIVE NAVBAR */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .hero-container {
+        flex-direction: column;
+        text-align: center;
+    }
 }
 
 /* ================= HERO SECTION ================= */
@@ -45,6 +118,11 @@ body {
     margin-top: 15px;
     color: #94a3b8;
     font-size: 16px;
+}
+.hero-text h1 {
+    font-size: 42px;
+    line-height: 1.4;
+    letter-spacing: 1px;
 }
 
 /* ================= BUTTONS ================= */
