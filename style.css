@@ -284,14 +284,3 @@ footer {
         height: 180px;
     }
 }
-.hero-container {
-    border: 2px solid red;
-}
-
-.hero-image {
-    border: 2px solid yellow;
-}
-
-.hero-text {
-    border: 2px solid lime;
-}
