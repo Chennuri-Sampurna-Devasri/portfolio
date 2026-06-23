@@ -1,0 +1,186 @@
+﻿Diagnose log at 2026-06-23T08:53:06Z
+
+AppPath: C:\Program Files\Git\mingw64\bin\git-credential-manager.exe
+InstallDir: C:\Program Files\Git\mingw64\bin\
+Version: 2.7.0+d1dd8a4ded75a2b1faae653157ac1699609442ad
+
+------------
+Diagnostic: Environment
+Skipped: False
+Success: True
+Exception: None
+Log:
+OSType: Windows
+OSVersion: 10.0 (build 26200)
+Reading environment variables... OK
+ Variables:
+OneDriveConsumer=C:\Users\harsh\OneDrive\Documents\OneDrive
+ProgramFiles(x86)=C:\Program Files (x86)
+MSYSTEM=MINGW64
+ProgramW6432=C:\Program Files
+ChocolateyInstall=C:\ProgramData\chocolatey
+PROCESSOR_IDENTIFIER=AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD
+OnlineServices=Online Services
+PROCESSOR_ARCHITECTURE=AMD64
+VSCODE_GIT_ASKPASS_MAIN=c:\Users\harsh\AppData\Local\Programs\Microsoft VS Code\41dd792b5e\resources\app\extensions\git\dist\askpass-main.js
+Path=C:/Program Files/Git/mingw64/libexec/git-core;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\harsh\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python314\Scripts\;C:\Python314\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\harsh\AppData\Local\Programs\Python\Python315\Scripts\;C:\Users\harsh\AppData\Local\Programs\Python\Python315\;C:\Users\harsh\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\harsh\AppData\Local\Programs\Python\Python38\;C:\Users\harsh\AppData\Local\Microsoft\WindowsApps;C:\Users\harsh\AppData\Roaming\npm;C:\Users\harsh\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\harsh\AppData\Local\Programs\Antigravity\bin;C:\Users\harsh\Downloads\apache-maven-3.9.14-bin.zip;
+WSLENV=WT_SESSION:WT_PROFILE_ID:
+VSCODE_GIT_IPC_HANDLE=\\.\pipe\vscode-git-a917c0b194-sock
+PROCESSOR_REVISION=5000
+WT_PROFILE_ID={61c54bbd-c2c6-5271-96e7-009a87ff44bf}
+ChocolateyLastPathUpdate=134112046683186403
+USERPROFILE=C:\Users\harsh
+LOGONSERVER=\\DEVASRI
+TEMP=C:\Users\harsh\AppData\Local\Temp
+USERNAME=devasri
+SystemRoot=C:\WINDOWS
+CHROME_CRASHPAD_PIPE_NAME=\\.\pipe\crashpad_25944_OPUBECEWIFDZERPX
+GIT_EXEC_PATH=C:/Program Files/Git/mingw64/libexec/git-core
+PLINK_PROTOCOL=ssh
+OneDrive=C:\Users\harsh\OneDrive\Documents\OneDrive
+USERDOMAIN_ROAMINGPROFILE=DEVASRI
+CommonProgramFiles=C:\Program Files\Common Files
+VSCODE_INJECTION=1
+VSCODE_PYTHON_AUTOACTIVATE_GUARD=1
+ProgramData=C:\ProgramData
+platformcode=KV
+GIT_ASKPASS=c:\Users\harsh\AppData\Local\Programs\Microsoft VS Code\41dd792b5e\resources\app\extensions\git\dist\askpass.sh
+HOMEPATH=\Users\harsh
+WT_SESSION=51f4c90d-d3c7-420b-aab0-6573d1b64ec3
+COMPUTERNAME=DEVASRI
+LANG=en_US.UTF-8
+ALLUSERSPROFILE=C:\ProgramData
+CommonProgramW6432=C:\Program Files\Common Files
+TMP=C:\Users\harsh\AppData\Local\Temp
+TERM=xterm-256color
+MAVEN_HOME=C:\Users\harsh\Downloads\apache-maven-3.9.14-bin.zip\apache-maven-3.9.14\bin
+SESSIONNAME=Console
+DriverData=C:\Windows\System32\Drivers\DriverData
+HOMEDRIVE=C:
+windir=C:\WINDOWS
+GIT_TRACE2_PARENT_SID=a16eca23-51af-4fd7-8507-7629437f06ec
+SystemDrive=C:
+NUMBER_OF_PROCESSORS=12
+OS=Windows_NT
+VBOX_HWVIRTEX_IGNORE_SVM_IN_USE=1
+ProgramFiles=C:\Program Files
+ComSpec=C:\WINDOWS\system32\cmd.exe
+NIEXTCCOMPILERSUPP=C:\Program Files (x86)\National Instruments\Shared\ExternalCompilerSupport\C\
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW;.CPL
+HOME=C:\Users\harsh
+PSModulePath=C:\Users\harsh\OneDrive\Documents\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+PROMPT=$P$G
+TMPDIR=C:\Users\harsh\AppData\Local\Temp
+APPDATA=C:\Users\harsh\AppData\Roaming
+USERDOMAIN=DEVASRI
+PROCESSOR_LEVEL=25
+asl.log=Destination=file
+LOCALAPPDATA=C:\Users\harsh\AppData\Local
+VSCODE_GIT_ASKPASS_NODE=C:\Users\harsh\AppData\Local\Programs\Microsoft VS Code\Code.exe
+TERM_PROGRAM_VERSION=1.115.0
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+COLORTERM=truecolor
+RegionCode=APJ
+PUBLIC=C:\Users\Public
+TERM_PROGRAM=vscode
+VSCODE_GIT_ASKPASS_EXTRA_ARGS=
+
+
+------------
+Diagnostic: File system
+Skipped: False
+Success: True
+Exception: None
+Log:
+Temporary directory is 'C:\Users\harsh\AppData\Local\Temp\'...
+Checking basic file I/O...
+Writing to temporary file 'C:\Users\harsh\AppData\Local\Temp\ba974e0fb1e6fa205b630f31'... OK
+Reading from temporary file 'C:\Users\harsh\AppData\Local\Temp\ba974e0fb1e6fa205b630f31'... OK
+Deleting temporary file 'C:\Users\harsh\AppData\Local\Temp\ba974e0fb1e6fa205b630f31'... OK
+Testing IFileSystem instance...
+UserHomePath: C:\Users\harsh
+UserDataDirectoryPath: C:\Users\harsh\.gcm
+GetCurrentDirectory(): C:\Users\harsh\OneDrive\Desktop\deva_portfolio
+
+------------
+Diagnostic: Networking
+Skipped: False
+Success: True
+Exception: None
+Log:
+Checking networking and HTTP stack...
+Creating HTTP client... OK
+IsNetworkAvailable: True
+Sending HEAD request to http://example.com...Sending HEAD request to https://example.com... OK
+Acquiring free TCP port... OK
+Testing local HTTP loopback connections...
+Creating new HTTP listener for http://localhost:55739/... OK
+Waiting for loopback connection... OK
+Writing response... OK
+Waiting for response data... OK
+Loopback connection data OK
+
+------------
+Diagnostic: Git
+Skipped: False
+Success: True
+Exception: None
+Log:
+Getting Git version... OK
+Git version is '2.53.0.windows.1'
+Locating current repository...Git repository at 'C:/Users/harsh/OneDrive/Desktop/deva_portfolio/.git'
+ OK
+Listing all Git configuration... OK
+Git configuration:
+file:C:/Program Files/Git/etc/gitconfig	diff.astextplain.textconv=astextplain
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.clean=git-lfs clean -- %f
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.smudge=git-lfs smudge -- %f
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.process=git-lfs filter-process
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.required=true
+file:C:/Program Files/Git/etc/gitconfig	http.sslbackend=schannel
+file:C:/Program Files/Git/etc/gitconfig	core.autocrlf=true
+file:C:/Program Files/Git/etc/gitconfig	core.fscache=true
+file:C:/Program Files/Git/etc/gitconfig	core.symlinks=false
+file:C:/Program Files/Git/etc/gitconfig	pull.rebase=false
+file:C:/Program Files/Git/etc/gitconfig	credential.helper=manager
+file:C:/Program Files/Git/etc/gitconfig	credential.https://dev.azure.com.usehttppath=true
+file:C:/Program Files/Git/etc/gitconfig	init.defaultbranch=master
+file:C:/Users/harsh/.gitconfig	user.email=devasrichennuri@gmail.com
+file:C:/Users/harsh/.gitconfig	user.name=devasri
+file:C:/Users/harsh/.gitconfig	credential.helper=manager
+file:.git/config	core.repositoryformatversion=0
+file:.git/config	core.filemode=false
+file:.git/config	core.bare=false
+file:.git/config	core.logallrefupdates=true
+file:.git/config	core.symlinks=false
+file:.git/config	core.ignorecase=true
+file:.git/config	remote.origin.url=https://github.com/Chennuri-Sampurna-Devasri/portfolio.git
+file:.git/config	remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+
+
+------------
+Diagnostic: Credential storage
+Skipped: False
+Success: True
+Exception: None
+Log:
+ICredentialStore instance is of type: CredentialStore
+Writing test credential... OK
+Reading test credential... OK
+Deleting test credential... OK
+
+------------
+Diagnostic: Microsoft authentication (AAD/MSA)
+Skipped: False
+Success: True
+Exception: None
+Log:
+Broker is not enabled.
+Flow type is: Auto
+Gathering MSAL token cache data... OK
+CacheDirectory: C:\Users\harsh\AppData\Local\.IdentityService
+CacheFileName: msal.cache
+CacheFilePath: C:\Users\harsh\AppData\Local\.IdentityService\msal.cache
+Creating cache helper... OK
+Verifying MSAL token cache persistence... OK
+
